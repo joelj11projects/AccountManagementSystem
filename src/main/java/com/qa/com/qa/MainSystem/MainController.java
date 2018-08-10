@@ -8,15 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class Springboot {
+public class MainController {
 	
 	public static void main(String[] args) {
-        SpringApplication.run(Springboot.class, args);
+        SpringApplication.run(MainController.class, args);
         
     }
 	@RequestMapping
 	public String home() {
 		return "Hello Wordddld!22";
 	}
+	
 
 }
